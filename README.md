@@ -55,12 +55,9 @@ When prompted, I typed `yes` to let Terraform create the resources.
 
 * I checked Terraform outputs to get the public subnet IDs and the backend EC2’s public IP.
 * I confirmed the EC2 was in the public subnet and had a public IP assigned.
-* I SSH’d into the EC2 instance using my key and the public IP:
-
-  ```bash
-  ssh -i mykey.pem ec2-user@<backend-public-ip>
-  ```
+* I SSH’d into the EC2 instance using my key and the public Ip.
 * I opened the backend PHP page and frontend S3 URL in the browser to confirm they worked.
+---
 
 
 ## Challenges I Faced and How I Fixed Them
@@ -84,8 +81,4 @@ Terraform was complaining about a missing zip file for Lambda. I created the zip
 ---
 
 That’s how I automated a scalable 3-tier web app deployment on AWS using Terraform! If you want, I can share the full Terraform code and detailed instructions.
-
----
-
-Would you like me to format this into a ready-to-use `README.md` file next?
 
