@@ -1,4 +1,4 @@
-# My 3-Tier Web App Deployment on AWS Using Terraform — Step-by-Step
+# Automating 3-Tier Web App Infrastructure on AWS with Terraform
 
 ## Step 1: Preparing the Project Files
 
